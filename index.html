@@ -4,22 +4,34 @@
 <body> 
 <h4> Aprendendo o básico do HTML </h4>
 
-<p> Vamos testar alguns recursos do HTML. Por exemplo, nunca fiz divisões. Vamos fazer a primeira agora: </p>
+<p> Vamos testar alguns recursos do HTML. Por exemplo: nunca fiz uso de classes. Vou fazer pela primeira vez agora para definir dois tipos se seções na minha página, 
+  com configurações diferentes: </p>
 
-<div> 
-<p> Divisão 1. </p>
-</div>
-<div> 
-<p> Divisão 2. </p>
-</div>
-<div> 
-<p> Divisão 3. </p>
-</div>
-<div> 
-<p> Divisão 4. </p>
-</div>
+<style>
+  .um {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  .dois {
+    background-color: white;
+    color: tomato;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    
+  </style>
 
-<p> Como ficou? </p>
+ 
+<div class="um">
+    <p> Aqui, a cor do plano de fundo deverá ser vermelho tomate, enquanto a cor da palavra será branca. <p/>
+    </div>
+    
+<div class="dois">
+    <p> Aqui, o inverso deverá acontecer: plano de fundo branco, letra cor vermelho tomate. </p>
+      
 
 </body>
 </html>
