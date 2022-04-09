@@ -1,0 +1,22 @@
+<html>
+<p> Brincando de HTML. </p>
+
+<body> 
+<h4> Aprendendo o básico do HTML </h4>
+
+<p> Vamos testar alguns recursos do HTML. Por exemplo, nunca fiz divisões. Vamos fazer a primeira agora: </p>
+
+<div> 
+<p> Divisão 1. </p>
+</div>
+<div> 
+<p> Divisão 2. </p>
+</div>
+<div> 
+<p> Divisão 3. </p>
+</div>
+<div> 
+<p> Divisão 4. </p>
+</div>
+
+<p> Como ficou? </p>
